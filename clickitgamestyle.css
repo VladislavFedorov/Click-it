@@ -1,0 +1,80 @@
+html {
+  background-color: #CAD1CF;
+}
+
+.field {
+  background: linear-gradient(to bottom, #1FDB1F, #005600);
+  width: 702px;
+  height: 140px;
+  margin: auto;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+}
+
+#scores, #level, #status, #newGame {
+  background-color: #6BAAD1;
+  height: 20px;
+  width: 80px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#newGame {
+  font-weight: bold;
+  width: 100px;
+  position: relative;
+  bottom: 135px;
+  left: 850px;
+}
+
+#bodyInformation {
+  width: 265px;
+  height: 30px;
+  background-color: #1A8E44;
+  border: 1px dotted #000000;
+  text-align: justify;
+  position: relative;
+  bottom: 135px;
+  left: 685px;
+  display: none;
+  padding: 10px;
+  font-style: italic;
+}
+
+#bodyInformation a, #bodyInformation a:visited {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hideInformation {
+  color: #FF000E;
+  font-style: normal;
+}
+
+.gameField {
+  background: linear-gradient(to bottom, #0016B9, #E3F0A3);
+  width: 700px;
+  height: 598px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px 10px 0 0;
+}
+
+#block {
+  width: 150px;
+  height: 49px;
+  background-color: #BF16E5;
+  border-radius: 50px;
+  border: 2px dotted #000000;
+  position: absolute;
+  top: 20px;
+  right: 724px;
+}
